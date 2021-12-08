@@ -79,8 +79,5 @@ for i in lst:
             return 0
         elif len(input)==7:
             return 8
-
-
-    print(mapp)
     counter += check_number(i[10])*1000 + check_number(i[11])*100 + check_number(i[12])*10 + check_number(i[13])
 print(counter)
