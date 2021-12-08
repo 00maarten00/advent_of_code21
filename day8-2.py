@@ -1,7 +1,7 @@
 #wget --load-cookies=cookies.txt https://adventofcode.com/2021/day/8/input
 import parser as p
 from collections import Counter
-lst = p.autoparse("input")
+lst = p.autoparse("input8")
 for i in range(len(lst)):
     del lst[i][10]
 

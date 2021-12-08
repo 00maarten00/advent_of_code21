@@ -1,6 +1,6 @@
 #wget --load-cookies=cookies.txt https://adventofcode.com/2021/day/8/input
 import parser as p
-lst = p.autoparse("input")
+lst = p.autoparse("input8")
 lst2 = []
 for i in lst:
     lst2 += i[11:]
