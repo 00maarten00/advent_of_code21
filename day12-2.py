@@ -1,6 +1,5 @@
 #wget --load-cookies=cookies.txt https://adventofcode.com/2021/day/12/input
 import parser as p
-from typing import List
 lst = p.singleparse("input12")
 
 for i in range(len(lst)):
