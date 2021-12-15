@@ -1,6 +1,6 @@
 #wget --load-cookies=cookies.txt https://adventofcode.com/2021/day/13/input
 import parser as p
-lst = p.singleparse("input")
+lst = p.singleparse("input13")
 dots = lst[:1022]
 instr = lst[1023:]
 
